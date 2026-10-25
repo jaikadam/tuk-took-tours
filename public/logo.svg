@@ -1,0 +1,49 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <!-- Tuk Tuk Body -->
+  <g id="tuk-tuk">
+    <!-- Main Body (Magenta/Pink) -->
+    <rect x="50" y="100" width="100" height="60" rx="15" fill="#E81B8B" />
+    
+    <!-- Body Accent Line (Gold) -->
+    <rect x="50" y="95" width="100" height="6" rx="3" fill="#FFD700" />
+    
+    <!-- Window/Windshield (Light Blue) -->
+    <rect x="60" y="50" width="80" height="50" rx="12" fill="#87CEEB" stroke="#6B5B95" stroke-width="4" />
+    
+    <!-- Windshield Frame (Purple) -->
+    <path d="M 60 50 Q 100 40 140 50" fill="none" stroke="#6B5B95" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- Left Wheel -->
+    <circle cx="70" cy="165" r="18" fill="#333333" />
+    <circle cx="70" cy="165" r="14" fill="#555555" />
+    <circle cx="70" cy="165" r="10" fill="#FFD700" />
+    
+    <!-- Right Wheel -->
+    <circle cx="130" cy="165" r="18" fill="#333333" />
+    <circle cx="130" cy="165" r="14" fill="#555555" />
+    <circle cx="130" cy="165" r="10" fill="#FFD700" />
+    
+    <!-- Left Mirror -->
+    <circle cx="40" cy="80" r="6" fill="#6B5B95" />
+    <line x1="40" y1="80" x2="30" y2="75" stroke="#6B5B95" stroke-width="2" />
+    
+    <!-- Right Mirror -->
+    <circle cx="160" cy="80" r="6" fill="#6B5B95" />
+    <line x1="160" y1="80" x2="170" y2="75" stroke="#6B5B95" stroke-width="2" />
+    
+    <!-- Front Bumper Detail -->
+    <rect x="55" y="158" width="90" height="4" rx="2" fill="#6B5B95" />
+    
+    <!-- Headlights -->
+    <circle cx="65" cy="110" r="4" fill="#FFE135" opacity="0.9" />
+    <circle cx="135" cy="110" r="4" fill="#FFE135" opacity="0.9" />
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#6B5B95">
+    TUK TOOK TOURS
+  </text>
+  <text x="100" y="220" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#5FBB7D" font-style="italic">
+    Tuk it easy, make it crazy
+  </text>
+</svg>
